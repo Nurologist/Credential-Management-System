@@ -1,71 +1,32 @@
 # Credential-Management-System
-Credential Management System
-Overview
-The Credential Management System is a decentralized application (dApp) designed to manage and verify academic and professional credentials using blockchain technology. Built on the Ethereum network with Arbitrum Orbit for scalability, this system allows educational institutions and organizations to issue, verify, and manage credentials securely and transparently.
+![image](https://github.com/user-attachments/assets/807bb905-81aa-4737-9007-e98dfc2aa4b8)
+---
+# Credential Management System
+## Vision
+The Credential Management System aims to revolutionize how academic and professional credentials are issued, verified, and managed by leveraging blockchain technology. By utilizing the Ethereum network and Arbitrum Orbit for scalability, this dApp provides a secure, transparent, and decentralized solution to combat credential fraud and streamline verification processes.
+## Contract Address
 
-Key Features
-Issue Credentials: Educational institutions and organizations can issue digital credentials directly onto the blockchain.
-Verify Credentials: Employers and other entities can quickly and securely verify credentials using the decentralized network.
-Manage Validity: Authorized parties can update the validity of credentials as needed.
-User Control: Individuals can manage their credentials and share them with employers or institutions as required.
-Immutable Records: Credentials are stored immutably on the blockchain, reducing the risk of fraud.
-Tech Stack
-Blockchain Platform: Ethereum with Arbitrum Orbit for Layer 2 scaling
-Smart Contract Language: Solidity
-Frontend Framework: HTML, CSS
-JavaScript Library: Web3.js
-Development Tools: Remix or Truffle for smart contract deployment
-Getting Started
-Prerequisites
-MetaMask: Ensure you have MetaMask or another Web3 provider installed in your browser.
-Ethereum Network: Configure MetaMask to use the Ethereum network or Arbitrum testnet for development.
-Installation
-Clone the Repository:
+The smart contract has been deployed to the Arbitrum network. Use the following details to interact with the contract:
 
-bash
-Copy code
-git clone https://github.com/yourusername/credential-management-system.git
-cd credential-management-system
-Deploy the Smart Contract:
+- **Contract Address:** '0x40f3dc39d12ea1cc626b7bb5ca35dbb2137bfa42'
+- **ABI:** Available in `script.js` and `abi.json` in the repository.
 
-Open the CredentialManager.sol smart contract in Remix or your preferred development environment.
-Deploy the contract to the Arbitrum network.
-Copy the contract address and ABI.
-Update the Frontend:
+## Future Scope
 
-Open script.js and replace YOUR_CONTRACT_ADDRESS with the address of your deployed contract.
-Replace /* Replace with your contract ABI */ with the ABI of your deployed contract.
-Serve the Application:
+1. **Integration with Educational Platforms:** Develop APIs to integrate with existing educational platforms for automatic credential issuance.
+2. **Advanced Analytics:** Implement features for analytics and reporting on credential issuance and verification trends.
+3. **Enhanced User Features:** Introduce features like credential renewal reminders and integration with digital wallets.
+4. **Cross-Chain Support:** Explore integration with other blockchain networks for broader interoperability and scalability.
 
-Ensure you have a local server to serve the HTML and JavaScript files. You can use a simple HTTP server like http-server in Node.js:
+## Contact Details
 
-bash
-Copy code
-npm install -g http-server
-http-server .
-Open your browser and navigate to http://localhost:8080 (or the port used by your server) to view the application.
+For any inquiries, feedback, or contributions, please reach out to:
 
-Usage
-Issue a Credential
-Enter the recipient's Ethereum address.
-Provide the credential name and type.
-Click "Issue Credential" to issue the credential to the specified address.
-Verify a Credential
-Enter the recipient's Ethereum address and the credential ID.
-Click "Verify Credential" to retrieve and display the credential details.
-Set Credential Validity
-Enter the recipient's Ethereum address and the credential ID.
-Check or uncheck the "Valid" checkbox to set the credential's validity status.
-Click "Set Validity" to update the credential's validity.
-Contributing
-Feel free to contribute to this project by submitting issues or pull requests. Ensure that you follow best practices for coding and testing.
+- **Project Maintainer:** Meghraj Dhakal
+- **Email:**meghrajdhakal966@gmail.com
+- **GitHub:** https://github.com/Nurologist
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Acknowledgments
-Ethereum and Arbitrum: For providing the blockchain infrastructure and scalability solutions.
-MetaMask: For enabling easy interaction with Ethereum dApps.
+Feel free to open issues or submit pull requests for improvements. Your contributions and feedback are highly appreciated!
 <br>
 //solidity code<br>
 // SPDX-License-Identifier: MIT
