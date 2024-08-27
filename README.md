@@ -9,6 +9,8 @@ The Credential Management System aims to revolutionize how academic and professi
 The smart contract has been deployed to the Arbitrum network. Use the following details to interact with the contract:
 
 - **Contract Address:** '0x40f3dc39d12ea1cc626b7bb5ca35dbb2137bfa42'
+- ![image](https://github.com/user-attachments/assets/7422609d-bfd6-4587-94f8-7c0bdf91f85e)
+
 - **ABI:** Available in `script.js` and `abi.json` in the repository.
 
 ## Future Scope
