@@ -162,65 +162,101 @@ html code<br>
 <br>//csscode<br>
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #e3f2fd; /* Light blue background */
     color: #333;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: background-color 0.3s ease;
 }
 
 h1 {
     margin-top: 20px;
-    color: #333;
+    color: #0d47a1; /* Dark blue color */
+    transition: color 0.3s ease;
 }
 
 div {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    padding: 25px;
     margin: 20px;
     width: 90%;
     max-width: 600px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+div:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
 }
 
 h2 {
     margin-top: 0;
-    color: #555;
+    color: #ff6f00; /* Vibrant orange */
+    transition: color 0.3s ease;
 }
 
 input, button {
     display: block;
     width: calc(100% - 22px);
     margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
     font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, button:focus {
+    border-color: #ff4081; /* Pink focus border */
+    box-shadow: 0 0 10px rgba(255, 64, 129, 0.5);
+    outline: none;
 }
 
 button {
-    background-color: #007bff;
+    background-color: #8e24aa; /* Deep purple button */
     color: #fff;
     border: none;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #6a1b9a; /* Darker purple on hover */
+    transform: translateY(-3px);
+}
+
+button:active {
+    background-color: #4a148c; /* Even darker purple when active */
+    transform: translateY(1px);
 }
 
 pre {
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 4px;
+    background-color: #ffecb3; /* Soft yellow background */
+    border: 1px solid #ffc107; /* Gold border */
+    padding: 12px;
+    border-radius: 6px;
     white-space: pre-wrap;
     word-wrap: break-word;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+pre:hover {
+    background-color: #fff8e1; /* Lighter yellow on hover */
+    border-color: #ffa000; /* Slightly darker gold border */
 }
 
 label {
     margin-right: 10px;
+    font-weight: bold;
+    color: #00796b; /* Teal color */
+    transition: color 0.3s ease;
+}
+
+label:hover {
+    color: #004d40; /* Darker teal on hover */
 }
